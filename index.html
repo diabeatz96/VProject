@@ -1,0 +1,30 @@
+<!-- Game content -->
+<div id="output"></div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vallene</title>
+</head>
+
+
+<!-- Player input -->
+<div class="input">
+  <span class="ml-2">> </span><input id="input" autofocus spellcheck="false">
+</div>
+
+<!-- CSS styles -->
+<link id="styles" rel="stylesheet" type="text/css" href="styles/modern.css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+<!-- Include game engine -->
+<script src="index.js"></script>
+
+<!-- Include game data ('disk') -->
+<script src="game-disks/vallene.js"></script>
+
+<!-- Load disk into engine -->
+<script>loadDisk(vallene);</script>
